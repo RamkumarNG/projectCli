@@ -1,0 +1,687 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+.logo
+{
+    padding-top: 10px;
+}
+.navbar
+{
+    color: white;
+    background-color:#047aed;
+    height: 60px;
+}
+.home:hover, .about:hover,.contact:hover
+{
+    cursor: pointer;
+    border-bottom: 2px solid white;
+}
+.container
+{
+    max-width: 1100px;
+    margin :0 auto;
+}
+.showcase
+{
+    color: white;
+    height: 400px;
+    background-color:#047aed;
+    position: relative;
+}
+.showcaseText
+{
+    background-color:#047aed;
+    animation: slideFromLeft 1s ease-in;
+}
+.showcaseForm
+{
+    background-color: white;
+    margin-top: 20%;
+    margin-left: 30%;
+    position: relative;
+    height: 350px;
+    width: 400px;
+    animation: slideFromRight 1s ease-in;
+}
+.showcaseForm input[type="text"],
+.showcaseForm input[type="email"],
+.showcaseForm input[type="number"]
+{
+    border: none;
+    border-bottom: 1px solid black;
+}
+.showcaseForm input:focus
+{
+    outline: none;
+}
+.btn
+{
+    border:none;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: #047aed;
+    border: 1px solid white;
+    color: white;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+.btn:hover
+{
+    transform: scale(0.98);
+}
+.showcase p
+{
+    margin:20px auto;
+    letter-spacing: 1px;
+}
+.showcase h1{
+    font-size: 2rem;
+}
+.formE
+{
+    margin: 30px 0;
+}
+ul
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+li
+{
+    margin-left: 20px;
+    padding-top: 20px;
+}
+.stats
+{
+    align-items: center;
+    animation: slideFromBottom 1s ease-in;
+}
+.stats h5
+{
+    margin-top: 150px;
+    font-size: 1rem;
+    font-weight: lighter;
+}
+.statsinfo 
+{
+    margin-top: 50px;
+    padding-left: 230px;
+}
+.statsinfo h3
+{
+    margin-top: 10px;
+    font-weight: lighter;
+}
+.statsinfo p
+{
+    font-size: 1rem;
+    font-weight: lighter;
+}
+.card1 , .card2
+{
+    border-radius: 10px;
+    background:#047aed;
+    width: 500px;
+    text-align: center;
+    padding: 20px 10px;
+}
+.cloud
+{
+    color: white;
+    margin-top: 100px;
+    background: #047aed;
+}
+.cloud .grid
+{
+    grid-template-columns: 4fr 3fr;
+}
+.cloud .container .textcenter
+{
+    width: 500px;
+}
+.cloud .container .textcenter h2
+{
+    font-size: 1.5rem;
+}
+.cloud .btn
+{
+    margin-top: 20px;
+    background: darkblue;
+    border: none;
+}
+.cloud .container .textcenter p
+{
+    margin-top: 20px;
+}
+
+.employees h1
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.employees h6
+{
+    padding-top: 2px;
+    font-size: 1rem;
+}
+.employees p 
+{
+    justify-content: center;
+}
+.employees .card
+{
+    padding: 10px 20px;
+    background: white;
+}
+.employees .card:hover
+{
+    cursor: pointer;
+    transform: scale(0.98);
+}
+.languages
+{
+    margin-top: 50px;
+    height: 150px;
+    padding-top: 10px;
+    margin-bottom: 100px;
+}
+.languages .flex
+{
+    flex-wrap: wrap;
+}
+.languages .languageCards
+{
+    padding-top: 50px;
+}
+.languages .languageCards .card
+{
+    height: 100px;
+    width: 90px;
+    padding-left: 0px;
+    padding:10px 10px 10px 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: transform 0.5s;
+}
+.languages .languageCards .card img
+{
+    padding-top: 10px;
+    height: 60px;
+}
+.languages .languageCards .card:hover
+{
+    transform: translateY(-15px);
+}
+
+
+.footer
+{
+    padding-top: 50px;
+    height: 180px;
+    background:#002240;
+}
+.first , .second , .third
+{
+    color: white;
+}
+.second
+{
+    text-decoration: none;
+    
+}
+.footer a
+{
+    color: white;
+    text-decoration: none;
+}
+.third .fa-2x
+{
+    padding-left: 20px;
+}
+
+/* feature page */
+.featuresheader
+{
+    color: white;
+    padding-top: 50px;
+    height: 300px;
+    background: #047aed;
+}
+.featureimage
+{
+    justify-self: flex-end;
+}
+.featuresheader img
+{
+    width: 200px;
+}
+.featuresheader h1
+{
+    font-size: 3rem;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+.platform
+{
+    background-color:#f2f5f4;
+    height: 300px;
+}
+.platformimage
+{
+    justify-self: flex-end;
+}
+.platform img
+{
+    height: 250px;
+}
+.platform h1
+{
+    color: gray;
+    margin-bottom: 10px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+.platform p
+{
+    color: gray;
+}
+.subhead
+{
+    margin-top: 50px;
+    height: 500px;
+}
+
+.subhead .card{
+    padding: 20px 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.subhead .card p 
+{
+    color: grey;
+    padding-top: 20px;
+    padding-left: 20px;
+    text-align: justify;
+}
+.subhead .grid > *:first-child
+{
+    grid-column: 1/span 3;
+}
+.subhead .grid > *:nth-child(2)
+{
+    grid-column: 1/span 2;
+}
+.subhead .card:hover
+{
+    cursor: pointer;
+}
+
+/* docs */
+.docsuppper
+{
+    color: #f2f5f4;
+    height: 300px;
+    background: #047aed;
+    justify-content: center;
+}
+.docsuppper h1
+{
+    font-size: 4.5rem;
+    margin-bottom: 10px;
+    font-weight: lighter;
+}
+.docsuppper p
+{
+    font-size: 1rem;
+    word-spacing: 2px;
+}
+.docsimage img
+{
+    height: 200px;
+}
+.docsimage
+{
+    margin-top: 30px;
+    justify-self: flex-end;
+}
+.docsbody
+{
+    height: 1100px;
+}
+.docsbody .card
+{  
+    padding-bottom: 30px;
+}
+.docsbody h2
+{
+    padding-top: 10px;
+    font-size: 1.4rem;
+    font-weight: lighter;
+}
+.docsbody .leftside,
+.docsbody .intro
+{
+    background: #f4f4f4;
+    margin-top: 30px;
+}
+.docsbody .leftside a
+{
+    color: black;
+    cursor: pointer;
+}
+.docsbody .leftside li
+{
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.intro
+{
+    font-weight: normal;
+}
+.intro p
+{
+    padding-bottom: 30px;
+}
+.mt
+{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding:0%;
+    margin: 0%;
+}
+.mr
+{
+    margin-top: 30px;
+}
+.mi
+{
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+.docsbody .grid
+{
+    grid-template-columns: 1fr 2fr;
+    align-items: flex-start;
+}
+.docsbody .install
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.docsbody .alert-success,.code
+{
+    background: green;
+    width: 600px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
+}
+.code
+{
+    color: white;
+    background: black;
+    margin-bottom: 30px;
+}
+
+/* home media queries */
+
+@media (max-width:500px){
+    html,body
+    {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden; 
+    }
+    .logo
+    {
+        text-align: center;
+        
+    }
+    .navbar
+    {
+        height: auto;
+    }
+    .navbar .flex
+    {
+        flex-direction: column;
+    }
+    .nav .flex
+    {
+        flex-direction: row;
+    }
+    .showcase .grid
+    {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .showcaseText
+    {
+        margin-top: 50px;
+        margin-left: 10px;
+        text-align: center;
+    }
+    .showcaseForm
+    {
+        position:relative;
+        right: 80px;
+        bottom: 100px;
+        height: 300px;
+        width: 350px;
+    }
+    .stats .grid-3
+    {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .stats .statsinfo .info
+    {
+        margin-right: 230px;
+    }
+    .cloud .grid
+    {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .cloud .textcenter
+    {
+        align-items: center;
+        text-align: center;
+    }
+    .cloud h2
+    {
+        margin-top: 50px;
+    }
+    .cloud p
+    {
+        padding-top: 20px;
+        margin-bottom: 30px;
+    } 
+    .cloud img
+    {
+        padding-top: 50px;
+        width: 300px;
+        height: 200px;
+    }
+    .cloud .imagearea
+    {
+        margin-bottom: 100px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .employees .flex
+    {
+        flex-direction: column;
+    }
+    .employees .card
+    {
+        margin-top: 30px;
+    }
+    .languages
+    {
+        height: 550px;
+    }
+    .languages .flex
+    {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .languageCards
+    {
+        align-items: center;
+        padding-left: 60px;
+        height: 100px;
+    }
+    .languages .languageCards .card
+    {
+        margin-top: 30px;
+    }
+    .languages .languageCards >*:last-of-type
+    {
+        margin-left: 110px;
+    }
+    .footer
+    {
+        height: auto;
+        margin-top: 150px;
+    }
+    .footer .flex
+    {
+        flex-direction: column;
+    }
+    .footer .second
+    {
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+    .footer .third
+    {
+        margin-bottom: 60px;
+    }
+    .featuresheader .grid,
+    .platform .grid,
+    .docsbody .grid
+    {
+        grid-template-columns: repeat(1,1fr);
+        text-align: center;
+    }
+    .featureimage,
+    .platformimage
+    {
+        margin-right: 150px;
+    }
+    .platform
+    {
+        padding-top: 30px;
+        height: auto;
+    }
+    .subhead
+    {
+        height: auto;
+    }
+    .subhead .grid
+    {
+        grid-template-columns: repeat(1,3fr);
+    }
+    .subhead .grid > *:first-child
+    {
+        grid-column: auto;   
+    }
+    .subhead .grid > *:nth-child(2)
+    {
+        grid-column: auto;   
+    }
+    .docsuppper
+    {
+        height: 500px;
+    }
+    .docsuppper .grid
+    {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .docsuppper h1,
+    .docsuppper p
+    {
+        text-align: center;
+    }
+    .docsuppper h1
+    {
+        margin-top: 30px;
+    }
+    .docsimage
+    {
+        justify-self: center;
+    }
+}
+
+/* keyframes */
+
+@keyframes slideFromRight
+{
+    0%{
+        transform: translatex(100%);
+    }
+    100%
+    {
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideFromLeft
+{
+    0%{
+        transform: translateX(-100%);
+    }
+    100%
+    {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideFromBottom
+{
+    0%{
+        transform: translateY(100%);
+    }
+    100%
+    {
+        transform: translateY(0);
+    }
+}
+
+/* utilities */
+.flex
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+.grid
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.grid-3
+{
+    grid-template-columns: repeat(3,1fr);
+}
+.card
+{
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    padding-left: 30px;
+}
+.textcenter
+{
+    text-align: center;
+}
